@@ -49,7 +49,7 @@ echo ']
 
 export default allCliList' >> cliData.js
 
-
 echo 'done'
 mv cliData.js /root/lzy/zenoe1/front/src/pages/
 cp /root/work/rf/rf/lib/DutLibrary/Judge/DutGetShow.py /root/lzy/zenoe1/backend/tool/script/
+cd /root/lzy/zenoe1/ && bash deploy.sh

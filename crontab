@@ -1,0 +1,1 @@
+* */1 * * * cd /root/work/rf/rf/lib/DutLibrary/Judge && svn --username=sat --password=sat update
