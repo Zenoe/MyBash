@@ -14,7 +14,7 @@ fi
 echo $option
 confFile=/etc/tinyproxy/tinyproxy.conf
 
-if [ $option == "up" ]; then
+if [ $option == "u" ]; then
     replace_str $confFile "#upstream http 127.0.0.1:7890" "upstream http 127.0.0.1:7890"
 else
     replace_str $confFile "upstream http 127.0.0.1:7890" "#upstream http 127.0.0.1:7890"
